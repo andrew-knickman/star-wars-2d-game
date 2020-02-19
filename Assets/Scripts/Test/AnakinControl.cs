@@ -6,16 +6,12 @@ public class AnakinControl : MonoBehaviour
 {
     public Animator a;
     public SpriteRenderer sr;
+    private int JumpFrameCount;
 
     // Start is called before the first frame update
     void Start()
     {
-
-    }
-
-    void Sprint()
-    {
-
+        JumpFrameCount = 0;
     }
 
     // Update is called once per frame
@@ -23,69 +19,65 @@ public class AnakinControl : MonoBehaviour
     {
 
         //movement control
-        bool mov;
+        bool mov = false;
         a.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
         a.SetFloat("Vertical", Input.GetAxis("Vertical"));
         if (a.GetFloat("Horizontal") == 0 && a.GetFloat("Vertical") == 0)
-        {
             mov = false;
-        }
         else
-        {
             mov = true;
-        }
         a.SetBool("Idle", !mov);
 
-        //jump control
-        bool jump;
-        if (Input.GetKeyDown("space"))
-        {
-            a.Play("Anakin Jump", 0);
-            a.SetBool("Jump", true);
-            jump = true;
-        }
-        else
-        {
-            a.SetBool("Jump", false);
-            jump = false;
-        }
-        //Input.GetKeyDown("space")
-        //a.GetCurrentAnimatorStateInfo(0).IsName("Anakin Jump")
-
-
         //slash control
+        //triggered
         if (Input.GetKeyDown("left ctrl"))
         {
+            a.Play("Anakin Slash A");
+            a.SetBool("Slash A", true);
+        }
+        if (Input.GetKeyDown("left ctrl") && a.GetBool("Slash A"))
+        {
             a.Play("Anakin Slash B");
-
-            if (Input.GetKeyDown("left ctrl"))
-                a.Play("Anakin Slash A");
+            a.SetBool("Slash A", false);
         }
 
         //sprinting control
-        bool spr;
-        if (Input.GetKey("left shift"))
+        //continuous
+        bool spr = false;
+        if (Input.GetKey("left shift") && mov && !a.GetBool("Jump"))
         {
-            if (mov && !jump)
-            {
-                a.Play("Anakin Sprint");
-                a.SetBool("Sprint", true);
-                spr = true;
-            }
-            else if(mov && jump)
-            {
-                spr = true;
-            }
-            else
-            {
-                a.SetBool("Sprint", false);
-                spr = false;
-            }
+            a.Play("Anakin Sprint");
+            a.SetBool("Sprint", true);
+            spr = true;
         }
         else
         {
             a.SetBool("Sprint", false);
             spr = false;
+        }
+
+        //jump control
+        //triggered
+        if (Input.GetKeyDown("space") && !a.GetBool("Jump") && JumpFrameCount == 0)
+        {
+            Debug.Log("I entered Jump control");
+            a.SetBool("Jump", true);
+            a.Play("Anakin Jump");
+        }
+        if (a.GetBool("Jump"))
+        {
+            JumpFrameCount++;
+            if (Input.GetKey("left shift"))
+            {
+                a.SetBool("Sprint", false);
+                spr = true;
+            }
+        }
+        if (JumpFrameCount == 40)
+        {
+            Debug.Log("I exited Jump control");
+            JumpFrameCount = 0;
+            a.SetBool("Jump", false);
         }
 
         //diagonal movement control
@@ -94,10 +86,9 @@ public class AnakinControl : MonoBehaviour
         else
             a.SetBool("Slant", false);
 
+        //direction control
         if (a.GetFloat("Horizontal") < 0)
             sr.flipX = true;
-
-        //direction control
         if(a.GetFloat("Horizontal") > 0)
             sr.flipX = false;
 
@@ -105,15 +96,9 @@ public class AnakinControl : MonoBehaviour
         Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
         Vector3 vertical = new Vector3(0.0f, Input.GetAxis("Vertical"), 0.0f);
         if (!spr)
-        {
-            transform.position += horizontal * Time.deltaTime * 5;
-            transform.position += vertical * Time.deltaTime * 5;
-        }
+            transform.position += (horizontal + vertical) * Time.deltaTime * 5;
         else
-        {
-            transform.position += horizontal * Time.deltaTime * 10;
-            transform.position += vertical * Time.deltaTime * 10;
-        }
+            transform.position += (horizontal + vertical) * Time.deltaTime * 10;
 
     }
 }

@@ -64,37 +64,37 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Test\AnakinControl.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Andrew/Documents (D)/Your Legend/KOTOR GBA/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Andrew/Documents (D)/Unity Projects/KOTOR GBA/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Andrew/Documents (D)/Your Legend/KOTOR GBA/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Andrew/Documents (D)/Unity Projects/KOTOR GBA/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Andrew/Documents (D)/Your Legend/KOTOR GBA/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Andrew/Documents (D)/Unity Projects/KOTOR GBA/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Andrew/Documents (D)/Your Legend/KOTOR GBA/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Andrew/Documents (D)/Unity Projects/KOTOR GBA/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Andrew/Documents (D)/Your Legend/KOTOR GBA/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Andrew/Documents (D)/Unity Projects/KOTOR GBA/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Andrew/Documents (D)/Your Legend/KOTOR GBA/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Andrew/Documents (D)/Unity Projects/KOTOR GBA/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Andrew/Documents (D)/Your Legend/KOTOR GBA/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Andrew/Documents (D)/Unity Projects/KOTOR GBA/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/Andrew/Documents (D)/Your Legend/KOTOR GBA/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>D:/Andrew/Documents (D)/Unity Projects/KOTOR GBA/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>D:/Andrew/Documents (D)/Your Legend/KOTOR GBA/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>D:/Andrew/Documents (D)/Unity Projects/KOTOR GBA/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Andrew/Documents (D)/Your Legend/KOTOR GBA/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Andrew/Documents (D)/Unity Projects/KOTOR GBA/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Andrew/Documents (D)/Your Legend/KOTOR GBA/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Andrew/Documents (D)/Unity Projects/KOTOR GBA/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Program Files/Unity Editors/2019.2.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
