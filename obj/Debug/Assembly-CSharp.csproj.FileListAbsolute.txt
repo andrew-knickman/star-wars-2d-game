@@ -1,0 +1,2 @@
+D:\Andrew\Documents (D)\Unity Projects\KOTOR GBA\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\Andrew\Documents (D)\Unity Projects\KOTOR GBA\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

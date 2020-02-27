@@ -10,6 +10,10 @@ public class AnakinControl : MonoBehaviour
     private int SlashAFrameCount;
     private int SlashBFrameCount;
     private int SlashCFrameCount;
+    //player anchor collider
+    public BoxCollider2D playerCol;
+    //edge collider for edges of level
+    private Collider2D levelCol;
 
 
     // Start is called before the first frame update
@@ -21,9 +25,27 @@ public class AnakinControl : MonoBehaviour
         SlashCFrameCount = 0;
     }
 
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        levelCol = col.collider;
+        Debug.Log("I just bumped into " + levelCol.ToString());
+    }
+
     // Update is called once per frame
     void Update()
     {
+        //edge control
+        bool atEdge = false;
+        string edge = "";
+        if(levelCol != null)
+        {
+            atEdge = playerCol.IsTouching(levelCol);
+            edge = levelCol.tag;
+        }
+        bool atTop = atEdge && edge.Equals("top");
+        bool atLft = atEdge && edge.Equals("left");
+        bool atRgt = atEdge && edge.Equals("right");
+        bool atBot = atEdge && edge.Equals("bottom");
 
         //movement control
         bool mov = false;
@@ -177,6 +199,14 @@ public class AnakinControl : MonoBehaviour
         //speed control
         Vector3 horizontal = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
         Vector3 vertical = new Vector3(0.0f, Input.GetAxis("Vertical"), 0.0f);
+        if (atTop && Input.GetAxis("Vertical") > 0)
+            vertical -= vertical;
+        if (atBot && Input.GetAxis("Vertical") < 0)
+            vertical -= vertical;
+        if (atRgt && Input.GetAxis("Horizontal") > 0)
+            horizontal -= horizontal;
+        if (atLft && Input.GetAxis("Horizontal") < 0)
+            horizontal -= horizontal;
         if (!spr && mov && !a.GetBool("Slash"))
             transform.position += (horizontal + vertical) * Time.deltaTime * 5;
         else if (spr && !a.GetBool("Slash"))
