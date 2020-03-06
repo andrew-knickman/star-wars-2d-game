@@ -1458,8 +1458,8 @@ TextureImporter:
         y: 1761
         width: 43
         height: 61
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1479,8 +1479,8 @@ TextureImporter:
         y: 1761
         width: 44
         height: 61
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.52, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1500,8 +1500,8 @@ TextureImporter:
         y: 1761
         width: 45
         height: 61
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1521,8 +1521,8 @@ TextureImporter:
         y: 1761
         width: 45
         height: 61
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1542,8 +1542,8 @@ TextureImporter:
         y: 1761
         width: 45
         height: 61
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1563,8 +1563,8 @@ TextureImporter:
         y: 1761
         width: 50
         height: 61
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1584,8 +1584,8 @@ TextureImporter:
         y: 1761
         width: 47
         height: 61
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.38, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1605,8 +1605,8 @@ TextureImporter:
         y: 1761
         width: 40
         height: 61
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.39, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1626,8 +1626,8 @@ TextureImporter:
         y: 1761
         width: 40
         height: 61
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.57, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1647,8 +1647,8 @@ TextureImporter:
         y: 1761
         width: 43
         height: 61
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.6, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1668,8 +1668,8 @@ TextureImporter:
         y: 1761
         width: 47
         height: 61
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.57, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1689,8 +1689,8 @@ TextureImporter:
         y: 1761
         width: 51
         height: 61
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.45, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1710,8 +1710,8 @@ TextureImporter:
         y: 1761
         width: 49
         height: 61
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1740,90 +1740,6 @@ TextureImporter:
       bones: []
       spriteID: 481433bb8ebb1874a969244f0544ba24
       internalID: 4875771573072263735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AnakinTest_32
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 1761
-        width: 32
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 320a8166882537144bf7979b4516cb14
-      internalID: -7111009226110449348
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AnakinTest_33
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 1761
-        width: 32
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d8572c9ca021e446a41b57e1f66f41f
-      internalID: 7790975953705278835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AnakinTest_34
-      rect:
-        serializedVersion: 2
-        x: 465
-        y: 1761
-        width: 32
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16ef30e7ea8e0ec439fa3da44b4564b2
-      internalID: 579594712132887881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AnakinTest_35
-      rect:
-        serializedVersion: 2
-        x: 519
-        y: 1761
-        width: 32
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b0389ce911561f45a1720066a092275
-      internalID: -4942705938336876691
       vertices: []
       indices: 
       edges: []
@@ -2866,7 +2782,7 @@ TextureImporter:
         width: 41
         height: 84
       alignment: 9
-      pivot: {x: 0.57, y: 0.5}
+      pivot: {x: 0.57, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2887,7 +2803,7 @@ TextureImporter:
         width: 41
         height: 84
       alignment: 9
-      pivot: {x: 0.61, y: 0.5}
+      pivot: {x: 0.61, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2908,7 +2824,7 @@ TextureImporter:
         width: 42
         height: 84
       alignment: 9
-      pivot: {x: 0.59, y: 0.5}
+      pivot: {x: 0.59, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2929,7 +2845,7 @@ TextureImporter:
         width: 66
         height: 84
       alignment: 9
-      pivot: {x: 0.24, y: 0.5}
+      pivot: {x: 0.24, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2950,7 +2866,7 @@ TextureImporter:
         width: 60
         height: 84
       alignment: 9
-      pivot: {x: 0.26, y: 0.5}
+      pivot: {x: 0.26, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2992,7 +2908,7 @@ TextureImporter:
         width: 59
         height: 84
       alignment: 9
-      pivot: {x: 0.27, y: 0.5}
+      pivot: {x: 0.27, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3034,7 +2950,7 @@ TextureImporter:
         width: 37
         height: 84
       alignment: 9
-      pivot: {x: 0.56, y: 0.5}
+      pivot: {x: 0.56, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3055,7 +2971,7 @@ TextureImporter:
         width: 36
         height: 84
       alignment: 9
-      pivot: {x: 0.55, y: 0.5}
+      pivot: {x: 0.55, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7494,6 +7410,27 @@ TextureImporter:
       bones: []
       spriteID: 19d83d60d8ea3a14aaf188b819d8d2e7
       internalID: -2880524087556036955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnakinTest_0
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1685
+        width: 34
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f667747e3a177c418dbcddb3edcfc3f
+      internalID: 7971391394632123194
       vertices: []
       indices: 
       edges: []

@@ -62,7 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Test\AnakinControl.cs" />
+    <Compile Include="Assets\Test\Scripts\AnakinControl.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Andrew/Documents (D)/Unity Projects/KOTOR GBA/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
